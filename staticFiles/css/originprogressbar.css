@@ -1,0 +1,14 @@
+.progressBarbg {
+    background-color: #404040;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+  }
+  
+  .realprogress {
+    background-color: #a0a0a0;
+    height: 4px;
+    width: 10%;
+    max-width: 100%;
+    border-radius: 2px;
+  }
