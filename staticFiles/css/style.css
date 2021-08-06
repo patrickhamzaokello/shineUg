@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
 
-:root{
-
+:root {
   /* aleartmessagedark */
-  --al-main-color: #121317;
+  --al-main-color: #181D26;
   --al-light-color: #fff;
   --al-background-color: #fce501;
-  --al-disablebutton-color: #BEC7C7;
+  --al-disablebutton-color: #bec7c7;
 }
 
-
 body {
-  background: #1c0529;
+  background: #181D26;
   font-family: "Roboto", sans-serif;
   /* letter-spacing: 1px; */
-  /* background: #180026; */
+  /* background: #181D26; */
   height: 100%;
   margin: 0;
   box-sizing: border-box;
@@ -29,10 +27,10 @@ body a:hover {
 }
 
 .header {
-  background: #1f102d;
+  background: #181D26;
   padding: 10px;
   color: #aaaaaa;
-  border-bottom: 1px solid #1f102d;
+  border-bottom: 1px solid #181D26;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -83,7 +81,7 @@ body a:hover {
 }
 
 .menucontext {
-  background: #180026;
+  background: #181D26;
   padding: 1em;
   width: 187px;
   box-shadow: 6px 6px 30px 0px #0e0213;
@@ -132,7 +130,7 @@ body a:hover {
 
 .navigation {
   padding: 15px;
-  background: #180026;
+  background: #181D26;
   color: #aaaaaa;
   /* height: 64%; */
   height: calc(100% - 121px);
@@ -165,7 +163,7 @@ body a:hover {
 }
 
 .playlisteditaction {
-  background: #180026;
+  background: #181D26;
   padding: 1em;
   width: 187px;
   box-shadow: 6px 6px 30px 0px #0e0213;
@@ -265,7 +263,7 @@ body a:hover {
 
 .mainplay {
   position: absolute;
-  color: #180026;
+  color: #181D26;
   top: 50%;
   left: 54%;
   font-size: 4rem;
@@ -292,7 +290,7 @@ body a:hover {
 
 .mainpause {
   position: absolute;
-  color: #180026;
+  color: #181D26;
   top: 50%;
   left: 50%;
   font-size: 4rem;
@@ -529,7 +527,7 @@ body a:hover {
 }
 
 .header .user__actions .dropdown-menu {
-  background: #180026;
+  background: #181D26;
   margin-top: 25px;
   border-radius: 2px;
   padding: 0;
@@ -741,7 +739,7 @@ body a:hover {
 }
 
 .content__middle {
-  width: 70%;
+  width: 85%;
   height: calc(100vh - 51px - 46px);
   height: -webkit-calc(100vh - 51px - 46px);
   height: -moz-calc(100vh - 51px - 46px);
@@ -786,7 +784,7 @@ body a:hover {
   display: grid;
   place-content: center;
   opacity: 0.7;
-  background-color: #180026;
+  background-color: #181D26;
   z-index: 999;
   text-align: center;
 }
@@ -1006,7 +1004,6 @@ ul {
   top: 50%;
   bottom: 50%;
   z-index: 5002;
-
 }
 
 .showdialogbox {
@@ -1047,8 +1044,8 @@ ul {
 .content__right {
   width: 15%;
   /* margin-top: 51px; */
-  background: #180026;
-  border-bottom: 1px solid #1c0529;
+  background: #181D26;
+  border-bottom: 1px solid #181D26;
   height: calc(100vh - 51px - 46px);
   height: -webkit-calc(100vh - 51px - 46px);
   height: -moz-calc(100vh - 51px - 46px);
@@ -1267,9 +1264,9 @@ ul {
 .playlist {
   padding: 15px;
   height: 7%;
-  background: #180026;
-  border-top: 1px solid #180026;
-  border-bottom: 1px solid #180026;
+  background: #181D26;
+  border-top: 1px solid #181D26;
+  border-bottom: 1px solid #181D26;
 }
 
 .playlist:hover {
@@ -1307,7 +1304,7 @@ ul {
   /* height: 26%; */
   height: 64px;
   width: 100%;
-  background: #180026;
+  background: #181D26;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1324,8 +1321,8 @@ ul {
 }
 
 .playing {
-  background: #180026;
-  border-bottom: 1px solid #180026;
+  background: #181D26;
+  border-bottom: 1px solid #181D26;
   display: flex;
   /* height: 10%; */
   height: 57px;
@@ -1419,7 +1416,7 @@ ul {
 }
 
 .current-track {
-  background: #1f102d;
+  background: #181D26;
   padding: 5px 15px;
   display: flex;
   flex-flow: row wrap;
@@ -1701,11 +1698,11 @@ ion-icon {
   align-items: center;
 }
 
-.songqueueicon:hover{
+.songqueueicon:hover {
   color: yellow !important;
 }
 
-.songmixicon:hover{
+.songmixicon:hover {
   color: yellow !important;
 }
 
@@ -1747,18 +1744,17 @@ ion-icon {
 
 .pkkkk {
   border-left: 2px solid yellow;
-  background: #180026;
+  background: #343d4e;
 }
 
-.holdsongid{
+.holdsongid {
   display: none;
-  background: #180026;
+  background: #343d4e;
   outline: none;
   border: none;
 }
 
-
-.alearmessagecontainer{
+.alearmessagecontainer {
   /* background: lightblue; */
   /* --al-main-color: #3e073e;
   --al-light-color: #fff;
@@ -1768,90 +1764,86 @@ ion-icon {
   padding: 2em;
 }
 
-.messagedescription{
+.messagedescription {
   text-align: center;
 }
 
-.alcreatebutton{
+.alcreatebutton {
   padding: 1em;
   width: 100%;
   margin-bottom: 1em;
   background: var(--al-main-color);
-  color:var(--al-light-color);
+  color: var(--al-light-color);
 }
 
-.alcancel{
+.alcancel {
   padding: 1em;
   width: 100%;
-  background:var(--al-light-color);
+  background: var(--al-light-color);
   color: var(--al-main-color);
 }
 
-
-.dismissable{
+.dismissable {
   padding: 1em;
 }
 
-
-.dismissablecontent{
+.dismissablecontent {
   display: flex;
   flex-wrap: wrap;
-  background: #3B0E59;
+  background: #3b0e59;
   padding: 2em 1em;
   margin-bottom: 2em;
 }
 
-.previewimagecontainer{
+.previewimagecontainer {
   width: 270px;
 }
 
-.previewimagecontainer img{
+.previewimagecontainer img {
   height: 140px;
   width: 250px;
 }
 
-.dismissablecontentdesc{
+.dismissablecontentdesc {
   display: flex;
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
 }
 
-.dismissablecontentbutton{
+.dismissablecontentbutton {
   flex: 1;
 }
 
-.dismissablecontenttext{
-/* flex: 1; */
+.dismissablecontenttext {
+  /* flex: 1; */
 }
 
 .dismissablecontenttext h2 {
   color: #fcfcfc;
 }
 
-.liveshowbtn{
+.liveshowbtn {
   border-radius: 0;
   padding: 15px 19px;
   background: #a5063c;
   color: white;
 }
 
-.createplaylistbtn{
+.createplaylistbtn {
   border-radius: 0;
   padding: 15px 19px;
   background: #a5063c;
   color: white !important;
   transition: 0.5s all;
-
 }
 
-.createplaylistbtn:hover{
+.createplaylistbtn:hover {
   background: white;
   border-radius: 25px;
   color: black !important;
   transition: 0.5s all;
 }
-
 
 .recommendedVideos__videos {
   display: flex;
@@ -1891,8 +1883,8 @@ ion-icon {
 }
 
 .videoCard_avatar {
-  height: 30px!important;
-  width: 30px!important;
+  height: 30px !important;
+  width: 30px !important;
 }
 
 .MuiAvatar-img {
@@ -1924,13 +1916,13 @@ ion-icon {
   margin-left: 15px;
 }
 
-.video__text>h4 {
+.video__text > h4 {
   font-size: 14px;
   margin-bottom: 5px;
   margin-top: 0;
 }
 
-.video__text>p {
+.video__text > p {
   font-size: 14px;
   color: grey;
 }
@@ -1947,11 +1939,8 @@ ion-icon {
 }
 
 .VideoMore {
-  color: grey!important;
+  color: grey !important;
 }
-
-
-
 
 @media (max-width: 768px) {
   .current-track__actions {
@@ -1975,7 +1964,7 @@ ion-icon {
   }
 
   .progressBarBg {
-    background-color: #1f102d;
+    background-color: #181D26;
   }
   .progressmade {
     background-color: rgb(233, 30, 99);
@@ -2083,7 +2072,6 @@ ion-icon {
     width: 100%;
   }
 
-
   .songviewdescription {
     place-content: center;
   }
@@ -2096,11 +2084,11 @@ ion-icon {
     margin: 0 auto;
   }
 
-  .sbutton{
+  .sbutton {
     margin: 0.5em;
   }
 
-  .createplaylistpage{
+  .createplaylistpage {
     padding: 1em 0.6em;
   }
   .songviewshareaction {
@@ -2137,8 +2125,8 @@ ion-icon {
   .playing {
     position: fixed;
     bottom: 0;
-    background: #1f102d;
-    border-bottom: #1f102d;
+    background: #181D26;
+    border-bottom: #181D26;
     border: none;
     left: 33%;
     height: 70px;
@@ -2417,26 +2405,21 @@ ion-icon {
     margin: 1em 0;
   }
 
-
-  .showdialogbox{
+  .showdialogbox {
     left: unset;
     right: unset;
     margin: 0 0.5em;
   }
 
-  .alearmessagecontainer{
+  .alearmessagecontainer {
     width: 100%;
     padding: 1em;
   }
-
-
-
 }
 
 /* ipad media query */
 
 @media (width: 768px) {
- 
   .current-track__actions {
     width: 100%;
     justify-content: space-around;
@@ -2444,7 +2427,7 @@ ion-icon {
   }
 
   .progressBarBg {
-    background-color: #1f102d;
+    background-color: #181D26;
   }
   .progressmade {
     background-color: rgb(233, 30, 99);
@@ -2474,7 +2457,6 @@ ion-icon {
     margin: 0;
     padding: 0;
   }
-
 
   .header .user {
     display: none !important;
@@ -2557,7 +2539,6 @@ ion-icon {
     width: 100%;
   }
 
-
   .songviewdescription {
     place-content: center;
   }
@@ -2570,11 +2551,11 @@ ion-icon {
     margin: 0 auto;
   }
 
-  .sbutton{
+  .sbutton {
     margin: 0.5em;
   }
 
-  .createplaylistpage{
+  .createplaylistpage {
     padding: 1em 0.6em;
   }
   .songviewshareaction {
@@ -2611,8 +2592,8 @@ ion-icon {
   .playing {
     position: fixed;
     bottom: 0;
-    background: #1f102d;
-    border-bottom: #1f102d;
+    background: #181D26;
+    border-bottom: #181D26;
     border: none;
     left: 33%;
     height: 70px;
@@ -2760,8 +2741,6 @@ ion-icon {
     width: 43%;
   }
 
-
-
   ::-webkit-scrollbar {
     width: 4px !important;
   }
@@ -2864,7 +2843,6 @@ ion-icon {
     outline: none;
     margin: 1em 0;
   }
-
 }
 
 /* end ipad view */
@@ -2904,8 +2882,6 @@ ion-icon {
   position: absolute;
   width: 100%;
   height: 100%;
-
-  background-image: url(artistcoveroverlay.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2958,9 +2934,15 @@ ion-icon {
 
 .artist__header .artist__info__name {
   color: white;
-  font-size: 36px;
-  font-weight: 100;
-  padding: 0 0 10px 0;
+  padding: 0.08em 0px;
+  font-size: 96px;
+  line-height: 96px;
+  visibility: visible;
+  width: 100%;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 96px;
+  text-transform: none;
 }
 
 .artist__header .artist__info__actions {
@@ -3108,7 +3090,7 @@ ion-icon {
 
 .artist__content .overview__artist {
   padding-right: 15px;
-  width: 70%;
+  width: 100%;
 }
 
 .artist__content .overview__artist .latest-release {
@@ -3132,7 +3114,7 @@ ion-icon {
   width: -webkit-calc(100% - 75px);
   width: -moz-calc(100% - 75px);
   padding: 10px 15px;
-  background: #180026;
+  background: #181D26;
   color: #aaaaaa;
   display: flex;
   flex-flow: column wrap;
@@ -3236,7 +3218,7 @@ ion-icon {
 }
 
 .tracks .track {
-  border-top: 1px solid #1f102d;
+  border-top: 1px solid #343d4e;
   height: 42px;
   display: flex;
   padding: 0.4em 0;
@@ -3245,11 +3227,11 @@ ion-icon {
 }
 
 .tracks .track:hover {
-  background: #1f102d;
+  background: #343d4e;
 }
 
 .tracks .track:last-child {
-  border-bottom: 1px solid #1f102d;
+  border-bottom: 1px solid #343d4e;
 }
 
 .tracks .track__art img {
@@ -3379,13 +3361,13 @@ ion-icon {
 }
 
 .related-artists .related-artist {
-  background: #180026;
+  background: #181D26;
   padding: 5px;
   margin-bottom: 2px;
 }
 
 .related-artists .related-artist:hover {
-  background: #1f102d;
+  background: #181D26;
   text-decoration: none;
 }
 
@@ -3558,7 +3540,7 @@ ion-icon {
 }
 
 .chartSong {
-  background: #1f102d;
+  background: #181D26;
   /* border-bottom: 1px solid #181818; */
   display: flex;
   flex-flow: row nowrap;
@@ -3838,7 +3820,7 @@ button:hover {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: #1f102d;
+  background: #181D26;
   border-radius: 5px;
   width: 30%;
   position: relative;
@@ -3979,7 +3961,7 @@ button:hover {
 }
 
 .noplaylistshared {
-  background: #1f102d;
+  background: #181D26;
   border-left: 1px solid white;
   padding: 1em;
 }
@@ -4246,7 +4228,7 @@ button:hover {
 .userDetails .usercontainer input[type="password"] {
   height: 50px;
   width: 100%;
-  background: #1f102d;
+  background: #181D26;
   border: none;
   font-size: 18px;
   font-weight: 300;

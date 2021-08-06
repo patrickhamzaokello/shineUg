@@ -2,11 +2,6 @@
 
 </div>
 
-<?php
-
-require "includes/rightnavBarContainer.php";
-
-?>
 </section>
 
 <?php

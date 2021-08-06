@@ -42,7 +42,8 @@ $artist = $album->getArtist();
             <div class="rightSection">
                 <h2><?php echo $album->getTitle(); ?></h2>
 
-                <p>ARTIST: <?php echo $artist->getName(); ?></p>
+                <p>Owner: <?php echo $artist->getName(); ?></p>
+                <p>Release Date: <?php echo $album->getDatecreated(); ?></p>
 
                 <p> <?php echo $album->getNumberOfSongs(); ?> Songs</p>
                 <div class='buttonsgroup'>
@@ -52,22 +53,7 @@ $artist = $album->getArtist();
                         Play All
                     </button>
 
-
-                    <div class="figure" tabindex="-1">
-                        <div class='button-light editplaylistmore'>
-                            <i class='ion-ios-more'></i>
-                        </div>
-
-                        <nav class="menucontext">
-                            <ul class='actioncollection'>
-                                <li class='separator'>Share Playlist</li>
-                                <li class='actionitem'>Twitter</li>
-                                <li class='actionitem'>Whatsapp</li>
-                                <li class='actionitem'>Facebook</li>
-                                <li class='actionitem'>Copy Link</li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <button class="show-more button-light">Buy Now</button>
 
                 </div>
 

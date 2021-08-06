@@ -1,6 +1,6 @@
 <?php
 
-$artistId = "martist6034eae7abc77pka";
+$artistId = "martist60e2c6eb7036dogw";
 
 include("includes/includedFiles.php");
 
@@ -23,8 +23,6 @@ $twitterusername = "@MwonyaaStream"
     $("#mainContent").show();
     $("#artistlogic").load("includes/artistfollowlogic.php?id=<?php echo $artistId ?>");
 </script>
-
-
 
 
 <!-- headerends -->
@@ -130,37 +128,7 @@ $twitterusername = "@MwonyaaStream"
 
     </div>
 
-    <div class="artist__navigation">
-
-        <ul class="nav nav-tabs" role="tablist">
-
-            <li role="presentation" class="active">
-                <a href="#artist-overview" aria-controls="artist-overview" role="tab" data-toggle="tab">Overview</a>
-            </li>
-
-            <!--<li role="presentation">
-                <a href="#artist-about" aria-controls="artist-about" role="tab" data-toggle="tab">About</a>
-              </li>-->
-
-        </ul>
-
-        <div class="artist__navigation__friends">
-
-            <a href="#">
-                <img src="assets/images/profile-pics/me.jpg" alt="" />
-            </a>
-
-            <a href="#">
-                <img src="assets/images/profile-pics/me.jpg" alt="" />
-            </a>
-
-            <a href="#">
-                <img src="assets/images/profile-pics/me.jpg" alt="" />
-            </a>
-
-        </div>
-
-    </div>
+   
 
 </div>
 
@@ -335,60 +303,17 @@ $twitterusername = "@MwonyaaStream"
 
                     </nav>
 
-                    <button class="show-more button-light">Show 5 More</button>
                     <!-- / -->
 
                 </div>
 
-                <div class="overview__related">
-
-                    <div class="section-title">Related Artist</div>
-
-                    <div class="related-artists">
-
-
-                        <?php
-
-                        $artistGenre = $artist->getGenre();
-                        $artistname = $artist->getName();
-
-
-                        $artistQuery = mysqli_query($con, "SELECT * FROM artists WHERE genre='$artistGenre' AND name != '$artistname' ORDER BY overalplays DESC Limit 8");
-
-                        while ($row = mysqli_fetch_array($artistQuery)) {
-
-                            echo "
-  
-                <a href='#' class='related-artist' role='link' tabindex='0' onclick='openPage(\"artist?id=" . $row['id'] . "\")'>
-            
-                  <span class='related-artist__img'>
-                  
-                    <img src=\"" . $row['profilephoto'] . "\" />
-                    
-                  </span>
-                  
-                  <span class='related-artist__name'>" . $row['name'] . "</span>
-                  
-                </a>             
-                    ";
-                        }
-
-
-
-
-                        ?>
-
-
-
-                    </div>
-
-                </div>
+               
 
                 <div class="eoverview__albums">
 
                     <div class="overview__albums__head">
 
-                        <span class="section-title">Albums</span>
+                        <span class="section-title">Browse Mixtapes</span>
 
 
 
