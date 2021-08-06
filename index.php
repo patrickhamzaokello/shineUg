@@ -1,6 +1,6 @@
 <?php
 
-$artistId = "martist60e2c6eb7036dogw";
+$artistId = "martist6044f454b39d2pin";
 
 include("includes/includedFiles.php");
 
